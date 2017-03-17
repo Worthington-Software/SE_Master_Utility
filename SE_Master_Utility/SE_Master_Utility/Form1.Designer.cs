@@ -44,7 +44,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(375, 82);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Load Test Values";
+            this.button1.Text = "Load Test Valuesqq";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -97,7 +97,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1603, 933);
+            this.ClientSize = new System.Drawing.Size(1620, 950);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.lb_SWObjects);
             this.Controls.Add(this.lb_SWComps);
