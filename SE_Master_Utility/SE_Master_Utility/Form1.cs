@@ -16,5 +16,10 @@ namespace SE_Master_Utility
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
