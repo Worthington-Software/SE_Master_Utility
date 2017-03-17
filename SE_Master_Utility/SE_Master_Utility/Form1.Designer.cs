@@ -33,6 +33,7 @@
             this.lb_SWComps = new System.Windows.Forms.ListBox();
             this.lb_SWObjects = new System.Windows.Forms.ListBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -81,6 +82,15 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(1117, 63);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -88,6 +98,7 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1603, 933);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.lb_SWObjects);
             this.Controls.Add(this.lb_SWComps);
             this.Controls.Add(this.button2);
@@ -106,6 +117,7 @@
         private System.Windows.Forms.ListBox lb_SWComps;
         private System.Windows.Forms.ListBox lb_SWObjects;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button button3;
     }
 }
 
