@@ -38,21 +38,20 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(45, 30);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Location = new System.Drawing.Point(34, 24);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(500, 101);
+            this.button1.Size = new System.Drawing.Size(375, 82);
             this.button1.TabIndex = 1;
-            this.button1.Text = "Load Test Values Jibberish 11";
+            this.button1.Text = "Load Test Values Jibberish 44";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(2433, 1249);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(1825, 1015);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 28);
+            this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -61,11 +60,10 @@
             // 
             this.lb_SWComps.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SWComps.FormattingEnabled = true;
-            this.lb_SWComps.ItemHeight = 39;
-            this.lb_SWComps.Location = new System.Drawing.Point(0, 154);
-            this.lb_SWComps.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lb_SWComps.ItemHeight = 32;
+            this.lb_SWComps.Location = new System.Drawing.Point(0, 125);
             this.lb_SWComps.Name = "lb_SWComps";
-            this.lb_SWComps.Size = new System.Drawing.Size(691, 1096);
+            this.lb_SWComps.Size = new System.Drawing.Size(519, 868);
             this.lb_SWComps.TabIndex = 4;
             this.lb_SWComps.SelectedIndexChanged += new System.EventHandler(this.lb_SWComps_SelectedIndexChanged);
             // 
@@ -73,11 +71,10 @@
             // 
             this.lb_SWObjects.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lb_SWObjects.FormattingEnabled = true;
-            this.lb_SWObjects.ItemHeight = 39;
-            this.lb_SWObjects.Location = new System.Drawing.Point(781, 154);
-            this.lb_SWObjects.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lb_SWObjects.ItemHeight = 32;
+            this.lb_SWObjects.Location = new System.Drawing.Point(586, 125);
             this.lb_SWObjects.Name = "lb_SWObjects";
-            this.lb_SWObjects.Size = new System.Drawing.Size(691, 1096);
+            this.lb_SWObjects.Size = new System.Drawing.Size(519, 868);
             this.lb_SWObjects.TabIndex = 5;
             // 
             // openFileDialog1
@@ -86,16 +83,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(2137, 1047);
+            this.ClientSize = new System.Drawing.Size(1620, 868);
             this.Controls.Add(this.lb_SWObjects);
             this.Controls.Add(this.lb_SWComps);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
