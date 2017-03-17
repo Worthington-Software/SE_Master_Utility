@@ -28,49 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.lb_SWComps = new System.Windows.Forms.ListBox();
+            this.lb_SWObjects = new System.Windows.Forms.ListBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(289, 101);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Test Label 1 21";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(526, 239);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(34, 24);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(375, 82);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Load Test Values";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1825, 1015);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // lb_SWComps
+            // 
+            this.lb_SWComps.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_SWComps.FormattingEnabled = true;
+            this.lb_SWComps.ItemHeight = 32;
+            this.lb_SWComps.Location = new System.Drawing.Point(0, 125);
+            this.lb_SWComps.Name = "lb_SWComps";
+            this.lb_SWComps.Size = new System.Drawing.Size(519, 900);
+            this.lb_SWComps.TabIndex = 4;
+            this.lb_SWComps.SelectedIndexChanged += new System.EventHandler(this.lb_SWComps_SelectedIndexChanged);
+            // 
+            // lb_SWObjects
+            // 
+            this.lb_SWObjects.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_SWObjects.FormattingEnabled = true;
+            this.lb_SWObjects.ItemHeight = 32;
+            this.lb_SWObjects.Location = new System.Drawing.Point(586, 125);
+            this.lb_SWObjects.Name = "lb_SWObjects";
+            this.lb_SWObjects.Size = new System.Drawing.Size(519, 900);
+            this.lb_SWObjects.TabIndex = 5;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1221, 715);
+            this.AutoScroll = true;
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1603, 933);
+            this.Controls.Add(this.lb_SWObjects);
+            this.Controls.Add(this.lb_SWComps);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox lb_SWComps;
+        private System.Windows.Forms.ListBox lb_SWObjects;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
 
