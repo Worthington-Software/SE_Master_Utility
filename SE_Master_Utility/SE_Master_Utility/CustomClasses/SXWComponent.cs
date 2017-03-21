@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SE_Master_Utility
 {
-    class Class_SXWComponent
+    class SXWComponent
     {
         public string componentName;
         public string componentDescription;
-        public List<Class_SXWObject> listSWXObjects;
+        public List<SXWObject> listSWXObjects;
 
-        public Class_SXWComponent(string cn, string cd, List<Class_SXWObject> so)
+        public SXWComponent(string cn, string cd, List<SXWObject> so)
         {
             componentName = cn;
             componentDescription = cd;

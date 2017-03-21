@@ -17,7 +17,7 @@ namespace SE_Master_Utility
     {
         //Global Items
         XDocument doc = new XDocument();
-        List<Class_SXWComponent> listMasterSXWComponents = new List<Class_SXWComponent>();
+        List<SXWComponent> listMasterSXWComponents = new List<SXWComponent>();
 
         public Form1()
         {
@@ -124,6 +124,17 @@ namespace SE_Master_Utility
         {
             lb_SWComps.DataSource = listMasterSXWComponents;
             lb_SWComps.DisplayMember = "compName";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            BACnetAnalogValue test = new BACnetAnalogValue("Satmp", "SA Temp", "AI", null);
+            MessageBox.Show(test.objectName);
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
         }
     }
 }
